@@ -1,0 +1,20 @@
+
+# 📄 Relatório Final - Telecom X
+
+## Introdução
+Este projeto tem como objetivo prever a evasão de clientes (churn) da Telecom X.
+
+## Principais Fatores de Evasão
+- Cobranca_Total e Cobranca_Mensal (valores altos → maior churn).
+- Meses_Contrato (clientes novos evadem mais).
+- Forma de pagamento (Débito automático).
+- Tipo de Internet (Fibra ótica).
+
+## Estratégias de Retenção
+- Campanhas de retenção nos primeiros meses de contrato.
+- Revisão de preços e planos para clientes com cobrança mensal elevada.
+- Estimular uso de serviços adicionais (streaming, suporte).
+- Incentivar contratos mais longos.
+
+## Conclusão
+O modelo final escolhido foi o **Random Forest**, com score ≈ 0.805.
